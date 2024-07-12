@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script>
+              function valid(){
+                var x=f1.t1.value.length;
+                var y=f1.t2.value.length;
+              if(x==""){
+                alert("must fill");
+                f1.t1.focus();
+              }
+              if(y==""){
+                alert("must fill");
+                f1.t2.focus();
+              }
+              if(!isNaN(f1.t1.value)){
+                alert("charactors only");
+                f1.t1.focus();
+              }
+              if(isNaN(f1.t2.value)){
+                alert("numbers only");
+                f1.t2.focus();
+
+              }
+              if(x!=8){
+                alert("charactor only 8");
+                f1.t1.focus();
+              }
+              if(y!=10){
+                alert("numbers only 10");
+                f1.t2.focus();
+              }
+
+
+              }
+        </script>
+    </head>
+    <body>
+        <form name="f1" class="form">
+            <input type="text" name="t1" placeholder="User name" class="input-one"><br><br>
+            <input type="number" name="t2" placeholder="Password" class="input-two"><br><br>
+            <input type="button" value="Login" onclick="valid()" class="button">
+        </form>
+    </body>
+</html>

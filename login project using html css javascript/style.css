@@ -1,0 +1,32 @@
+.form{
+    background: turquoise;
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    margin-left: 200px;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+.input-one{
+    height: 30px;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.input-two{
+    height: 30px;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.button{
+    height: 50px;
+    width: 60px;
+    margin-top: 30px;
+    margin-left: 120px;
+    border-radius: 50%;
+    background-color: rgb(255, 71, 194);
+    color: rgb(242, 249, 243);
+}
