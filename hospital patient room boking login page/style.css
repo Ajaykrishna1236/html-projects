@@ -1,0 +1,54 @@
+.form{
+    background-color: slateblue;
+    width: 300px;
+    height: 430px;
+    border-radius: 20px;
+    border: 3px solid white;
+
+}
+.pat{
+    height: 30px;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.option{
+    height: 30px;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.r1{
+    height: 30px;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.room{
+    height: 30px;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.butt{
+    height: 30px;
+    width: 60px;
+    box-shadow: 0px 2px;
+    margin-top: 10px;
+    color: white;
+    background-color: sandybrown;
+    margin-left: 120px;
+    
+}
+.patt{
+    height: 30px;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.b1{
+    height: 30px;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 10px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script>
+                function msg(){
+                    var x=f1.select.value;
+                    if(x=="A/C"){
+                        f1.rent.value="2000";
+                    }
+                    else{
+                        f1.rent.value="1000";
+                    }
+                }
+              function sample(){
+                           var a=f1.patient.value;
+                           f1.s1.value=a;
+                           var x=parseInt(f1.rent.value);
+                           var y=parseInt(f1.n1.value);
+                           var billamount=x*y;
+                           f1.s2.value=billamount;
+              }
+             
+        </script>
+    </head>
+    <body>
+        <h1 onmouseenter="name()">Java Script</h1>
+        <form class="form" name="f1">
+            <input class="pat" type="text" placeholder="patient" name="patient"><br><br>
+            <select class="option" name="select" onchange="msg()">
+               <option>A/C</option>
+               <option>Non A/c</option>
+            </select><br><br>
+            <input class="r1" type="text" placeholder="Rent" name="rent"><br><br>
+            <input class="room" type="text" placeholder="No of Room" name="n1"><br><br>
+            <input class="butt" type="button" value="ok" onclick="sample()"><br><br>
+            <input class="patt" type="text" placeholder="patient id" name="s1"><br><br>
+            <input class="b1" type="number" placeholder="Bill" name="s2">
+
+        </form>
+    </body>
+</html>
