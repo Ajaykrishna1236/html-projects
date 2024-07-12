@@ -1,0 +1,130 @@
+#int{
+
+    background-color: rgb(46, 0, 54);
+    
+
+}
+.container{
+    background: rgb(46, 58, 55);
+    height: 400px;
+    width: 300px;
+    border: 2px solid black;
+    margin-left: 150px;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+.screen{
+    background:white;
+    height: 200px;
+    width: 290px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.one-button{
+    height: 40px;
+    width: 40px;
+    margin-left: 40px;
+    height: 40px;
+    color: rgb(204, 0, 153);
+    border-radius: 10px;
+}
+.two-button{
+    height: 40px;
+    height: 40px;
+    color: rgb(204, 0, 153);
+    width: 40px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+.three-button{
+    height: 40px;
+    width: 40px;
+    margin-left: 50px;
+    border-radius: 10px;
+    height: 40px;
+    color: rgb(204, 0, 153);
+}
+.four-button{
+    height: 40px;
+    width: 40px;
+    height: 40px;
+    color: rgb(204, 0, 153);
+    margin-left: 40px;
+    border-radius: 10px;
+}
+.five-button{
+    height: 40px;
+    height: 40px;
+    color: rgb(204, 0, 153);
+    width: 40px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+.six-button{
+    height: 40px;
+    height: 40px;
+    color: rgb(204, 0, 153);
+    width: 40px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+.six-button{
+    height: 40px;
+    width: 40px;
+    margin-left: 50px;
+    height: 40px;
+    color: rgb(204, 0, 153);
+    border-radius: 10px;
+}
+.seven-button{
+    height: 40px;
+    color: rgb(204, 0, 153);
+    width: 40px;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+.eight-button{
+    height: 40px;
+    width: 40px;
+    height: 40px;
+    color: rgb(204, 0, 153);
+    margin-left: 50px;
+    border-radius: 10px;
+}
+.nine-button{
+    height: 40px;
+    height: 40px;
+    color: rgb(204, 0, 153);
+    width: 40px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+.one-button:hover{
+    background:#0fe09ade;
+}
+.two-button:hover{
+    background:#0fe09ade;
+}
+.three-button:hover{
+    background:#0fe09ade;
+}
+.four-button:hover{
+    background:#0fe09ade;
+}
+.five-button:hover{
+    background:#0fe09ade;
+}
+.six-button:hover{
+    background:#0fe09ade;
+}
+.seven-button:hover{
+    background:#0fe09ade;
+}
+.eight-button:hover{
+    background:#0fe09ade;
+}
+.nine-button:hover{
+    background:#0fe09ade;
+}
+
+
